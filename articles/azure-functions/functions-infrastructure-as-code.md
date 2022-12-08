@@ -413,9 +413,6 @@ resource hostingPlan 'Microsoft.Web/serverfarms@2022-03-01' = {
     family: 'Y'
     capacity: 0
   }
-  properties: {
-    computeMode: 'Dynamic'
-  }
 }
 ```
 
@@ -435,9 +432,6 @@ resource hostingPlan 'Microsoft.Web/serverfarms@2022-03-01' = {
       "family": "Y",
       "capacity": 0
     },
-    "properties": {
-      "computeMode": "Dynamic"
-    }
   }
 ]
 ```
@@ -462,7 +456,6 @@ resource hostingPlan 'Microsoft.Web/serverfarms@2022-03-01' = {
     capacity: 0
   }
   properties: {
-    computeMode: 'Dynamic'
     reserved: true
   }
 }
@@ -485,7 +478,6 @@ resource hostingPlan 'Microsoft.Web/serverfarms@2022-03-01' = {
       "capacity":0
     },
     "properties": {
-      "computeMode": "Dynamic",
       "reserved": true
     }
   }
